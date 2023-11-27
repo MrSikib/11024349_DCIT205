@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Ghana Department of Computer Science-Home</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+          body {
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    margin: auto;
+    max-width: 1170px;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+        .navbar {
+ display: flex;
+ justify-content: flex-end;
+ background-color: #2c2a58;
+ padding: 10px;
+}
+
+.menu {
+ position: relative;
+ display: -moz-grid-line;
+}
+
+.hamburger {
+ display: block;
+ width: 20px;
+ height: 2px;
+ background-color: #fff;
+ margin-bottom: 4px;
+}
+
+.hamburger:last-child {
+ margin-bottom: 0;
+}
+
+.intro-p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.myLinks{
+    text-align: right;
+    background-color: #2c2a58;
+    border-style: double;
+    height: 25px;
+}
+
+.Link{
+    color: white;
+    font-size: large;
+    border-style: hidden;
+    border-spacing: 10%;
+    margin-right: 10px;
+}
+
+.imgg{
+    width: 1210px;
+    height: 300px;
+    position: relative;
+}
+
+.image-text{
+    position: relative;
+}
+
+.imagetext{
+    font-size: x-large;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    padding: 10px;
+}
+.sp-image{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #cbc5c5;
+    margin-top:0;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.sp-image:hover{
+    background-color: #746d9f;
+}
+
+.sp-image:action{
+    opacity: 0.15;
+}
+
+.sp-image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: none;
+}
+
+.sc-text{
+    color: white;
+    align-items: justify;
+    font-size: large;
+    justify-content: center;
+    border-radius: 25%;
+    margin: auto;
+    width: 400px;
+}
+
+.lnk{
+    margin-top: 200px;
+    margin-right: 30px;
+}
+
+.undergrad-image{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: #cbc5c5;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.undergrad-image:hover{
+    background-color: #746d9f;
+}
+
+.undergrad-image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: none;
+}
+
+.undergrad-text{
+    color: white;
+    margin: auto;
+    font-size: x-large;
+    height: fit-content;
+    width: 500%;
+    margin-left: 90px;
+}
+
+.up-link{
+    margin-top: 170px;
+    margin-right: 200px;
+}
+h2{
+    color: #2c2a58;
+    background-color: gold;
+    justify-content: center;
+    text-align: center;
+}
+
+#hd2{
+    margin-top: 110px;
+    margin-left: 20px;
+    height: fit-content;
+}
+
+.mphil-image{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #cbc5c5;
+    margin-top:0;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.mphil-image:hover{
+    background-color: #746d9f;
+}
+
+.mphil-image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: none;
+}
+
+.mphil-text{
+    color: white;
+    align-items: justify;
+    font-size: large;
+    justify-content: center;
+    border-radius: 25%;
+    margin: auto;
+    width: 400px;
+}
+
+.phd-image{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: #cbc5c5;
+    cursor: pointer; border-style: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.phd-image:hover{
+    background-color: #746d9f;
+}
+
+.phd-image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: none;
+}
+
+.phd-text{
+    color: white;
+    margin: auto;
+    font-size: x-large;
+    height: fit-content;
+    width: 500%;
+    margin-left: 90px;
+}
+
+.dptmt{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.news-image{
+  width: 300px;
+  height: 250px;
+}
+
+.event-image{
+  width: 300px;
+  height: 250px;
+  margin-left: 40px;
+}
+
+.dptmt-button{
+  background-color: #fff;
+  border-style: none;
+  cursor: pointer;
+}
+
+.dptmt-button:hover{
+  background-color: #746d9f;
+}
+
+.writing{
+  display: flex;
+  margin-left: 310px;
+}
+
+.dn{
+  width: 220px;
+}
+
+.d-e{
+  width: 270px;
+  margin-left: 190px;
+}
+
+.hed3{
+  font-size: 20px;
+  color: #2c2a58;
+}
+
+.lkd{
+  font-size: 15px;
+  color: #bd9c6c;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: #2c2a58;
+  padding: 70px 0;
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.fc4{
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.fc4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #bd9c6c;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.fcul{
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 992px){
+    body{
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+@media screen and (max-width: 768px){
+    body{
+    grid-template-columns: 1fr;
+}
+}
+    </style>
+</head>
+<body>
+    &nbsp;<br>
+    <img src="https://dcs.ug.edu.gh/img/comScience_logo.png" 
+    alt="UG Department of Computer Science logo" width="50%" height="45%"> 
+  <div class="myLinks">
+    <a href="Index.html" class="Link">Home</a>
+    <a href="About.html" class="Link">About</a>
+    <a href="#Courses.html" class="Link">Courses</a>
+    <a href="#finance" class="Link">Financial Aid</a>
+    <a href="#Contact.html" class="Link">Contact</a>
+  </div>
+  &nbsp;<br>
+<div class="image-text">
+<img src="https://i0.wp.com/raphsark.com/wp-content/uploads/2022/06/71ed626e55c32d94f630549c4cf742f3724e94eb.webp" alt="balme library" class="imgg">
+<div class="imagetext"><h1><b>UNIVERSITY OF GHANA DEPARTMENT OF COMPUTER SCIENCE</b><br>
+<i>Your gateway to technological intelligence</i></h1>
+</div>
+</div>
+&nbsp;<br>
+<button class="sp-image">
+    <div class="sp-image">
+    <img src="https://dcs.ug.edu.gh/img/gallery/g4.jpg" alt="short program img">
+    <div class="sc-text"><h2><b>SHORT COURSES</b><br></h2>
+    Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.</div>
+    &nbsp;<br>
+    <a href="Short-Courses.html" class="lnk">Read More</a>
+</div>
+</button>
+&nbsp;<br>
+<button class="undergrad-image">
+<div class="undergrad-image">
+<h2 id="hd2"><b>UNDERGRADUATE PROGRAMMES</b></h2><br>
+<p class="undergrad-text"> Open the door sought-after technology careers with a world-class Bachelor of Science in Computer Science Degree</p><br>
+    <a href="Undergrad-Courses.html" class="up-link">Read More</a>
+    <img src="https://dcs.ug.edu.gh/img/about-img2.jpeg" alt="undergrad img">
+</div>   
+</button>  
+    &nbsp;<br>
+    <button class="mphil-image">
+    <div class="mphil-image">
+        <img src="https://cdn.ghanaweb.com/imagelib/pics/286/28674640.jpg" alt="mphil-program img">
+        <div class="mphil-text"><h2><b>MPhil and Msc PROGRAMMES</b><br></h2>
+        Embrace world class graduate education with unique blend of cutting-edge research and industry experience.</div>
+        &nbsp;<br>
+        <a href="MPhil-Courses.html" class="lnk">Read More</a>
+    </div>
+</button>
+    &nbsp;<br>
+    <button class="phd-image">
+    <div class="phd-image">
+        <h2 id="hd2"><b>PhD PROGRAMMES</b></h2><br>
+        <p class="phd-text">Open the door sought-after technology careers with a world-class Bachelor of Science in Computer Science Degree</p><br>
+            <a href="PhD-Courses.html" class="up-link">Read More</a>
+            <img src="https://wordsthatcount.org/wp-content/uploads/2022/02/Rose-Mary1.png" alt="phd img">
+        </div>
+    </button>
+    &nbsp;<br>
+ <div class="dptmt">
+<div class="department-news">
+  <button class="dptmt-button">
+      <img src="https://media.istockphoto.com/id/158578801/vector/newspaper-folded.jpg?s=612x612&w=0&k=20&c=KXw6e0cOjZ9q71KbfYEtXREC6aO2ot-8_1-x0l23Gyk=" 
+      alt="newspaper" class="news-image">
+  </button>    
+    </div>
+<div class="department-events">
+    <button class="dptmt-button">
+      <img src="https://img.freepik.com/premium-vector/realistic-perspective-front-view-modern-pro-laptop-computer-with-keyboard-isolated-mock-up-white-background-computer-notebook-with-empty-screen-template-smart-device-digital-equipment-cutout_37895-705.jpg" 
+      alt="event" class="event-image">
+    </button>
+  </div>
+  </div>
+<div class="writing">
+  <div class="dn">
+  <h3 class="hed3">DEPARTMENT NEWS</h3>
+  <p>Stay abreast with the latest news served from the heads of the department daily</p>
+  <a href="Dept-News.html" class="lkd">View latest News</a>
+</div>
+<div class="d-e">
+  <h3 class="hed3">DEPARTMENT EVENTS</h3>
+  <p>Programmes, Seminars and events organized by the department</p>
+  <a href="#event" class="lkd">View upcoming and ongoing events</a>
+</div>
+</div>
+  </div>
+</div>
+&nbsp;<br>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col>">
+        <h4 class="fc4">Academics</h4>
+        <ul  class="fcul">
+          <li><a href="#">Undergraduate Courses</a></li>
+          <li><a href="#">Graduate Courses(MPhil Computer Science)</a></li>
+          <li><a href="#">Graduate Courses(MSc Computer Science)</a></li>
+          <li><a href="#">Graduate Courses(PhD)</a></li>
+          <li><a href="#">Academic Calendar</a></li>
+          <li><a href="#">Level 200 & 300 Timetable</a></li>
+          <li><a href="#">Placements for Level 200 Students</a></li>
+          <li><a href="#">Student Complaint Form</a></li>
+        </ul>
+      </div>
+      <div class="footer-col>">
+        <h4 class="fc4">Admissions</h4>
+        <ul class="fcul">
+          <li><a href="#">Undergraduate</a></li>
+          <li><a href="#">Graduate</a></li>
+          <li><a href="#">International Students</a></li>
+          <li><a href="#">Entry Requirements</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col>">
+        <h4 class="fc4">Research</h4>
+        <ul  class="fcul">
+          <li><a href="#">Research at DCS</a></li>
+          <li><a href="#">Research Impact</a></li>
+          <li><a href="#">Libraries</a></li>
+        </ul>
+      </div>
+      <div class="footer-col>">
+        <h4 class="fc4">About The Department</h4>
+        <ul  class="fcul">
+          <li><a href="#">Introducing DCS</a></li>
+          <li><a href="#">Head of Department's Office</a></li>
+          <li><a href="#">Faculty</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

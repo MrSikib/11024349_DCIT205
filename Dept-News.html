@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Ghana Department of Computer Science-Dept_News</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif; 
+        }
+        body {
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    margin: auto;
+    max-width: 1170px;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+        .navbar {
+ display: flex;
+ justify-content: flex-end;
+ background-color: #2c2a58;
+ padding: 10px;
+}
+
+.menu {
+ position: relative;
+ display: -moz-grid-line;
+}
+
+.hamburger {
+ display: block;
+ width: 20px;
+ height: 2px;
+ background-color: #fff;
+ margin-bottom: 4px;
+}
+
+.hamburger:last-child {
+ margin-bottom: 0;
+}
+
+.myLinks{
+    text-align: right;
+    background-color: #2c2a58;
+    border-style: double;
+    height: 25px;
+}
+
+.Link{
+    color: white;
+    font-size: large;
+    border-style: hidden;
+    border-spacing: 10%;
+    margin-right: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: #2c2a58;
+  padding: 70px 0;
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.fc4{
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.fc4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #bd9c6c;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.fcul{
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.imgg{
+    width: 400px;
+    height: 400px;
+}
+
+.blog-section{
+    width: 100%;
+}
+
+.blog-section .section-content{
+    width: 85%;
+    margin: 20px auto;
+}
+
+.blog-section .section-content .title{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.blog-section .section-content .title h2{
+    font-size: 40px;
+    color: #2c2a58;
+    text-transform: uppercase;
+    text-decoration: underline
+}
+
+.blog-section .section-content .title p{
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.cards{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+}
+
+.blog-section .section-content .cards .card{
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.blog-section .section-content .cards .card img{
+  width: 100%;
+  height: auto;
+}
+
+.blog-section .section-content .cards .card .article{
+    padding: 15px 20px;
+}
+
+.blog-section .section-content .cards .card .article h4{
+    font-size: 24px;
+    color: #2c2a58;
+    margin-left: 30px;
+}
+
+.blog-section .section-content .cards .card .article p{
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #000000;
+}
+
+.blog-section .section-content .cards .card a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #efeaea;
+    padding: 8px 15px;
+    margin-left: 20px;
+    color: #bd9c6c;
+    margin-bottom: 20px;
+}
+
+.blog-section .section-content .cards .card .posted-date p{
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background-color: #efeaea;
+    padding: 6px 15px;
+}
+
+@media screen and (max-width: 992px){
+    .blog-section .section-content .cards{
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+@media screen and (max-width: 768px){
+    .blog-section .section-content .cards{
+    grid-template-columns: 1fr;
+}
+}
+
+    </style>
+</head>
+<body>
+    &nbsp;<br>
+    <img src="https://dcs.ug.edu.gh/img/comScience_logo.png" 
+    alt="UG Department of Computer Science logo" width="50%" height="45%"> 
+  <div class="myLinks">
+    <a href="Index.html" class="Link">Home</a>
+    <a href="About.html" class="Link">About</a>
+    <a href="#Courses.html" class="Link">Courses</a>
+    <a href="#finance" class="Link">Financial Aid</a>
+    <a href="#Contact.html" class="Link">Contact</a>
+  </div>
+  &nbsp;<br>
+<div class="blog-section">
+    <div class="section-content blog">
+        <div class="title">
+            <h2>Department News</h2>
+            <p>hghhgh</p>
+        </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="image-section">
+                    <img src="https://dcs.ug.edu.gh/img/gallery/g4.jpg" alt="student and laptop" class="imgg">
+                </div>
+                <div class="article">
+                    <h4>ANNUAL TECH SUMMIT</h4>
+                    <p>The University of Ghana Department of Computer Science annual tech summit is scheduled to happen on the...</p>
+                </div>
+                <div class="blogview">
+                    <a href="#" class="button">Read More</a>
+                </div>
+                <div class="posted date">
+                    <p>Posted on 26/11/2023</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-section">
+                    <img src="https://dcs.ug.edu.gh/img/about-img2.jpeg" alt="student and laptop" class="imgg">
+                </div>
+                <div class="article">
+                    <h4>CODE & COCKTAIL</h4>
+                    <p>The annual code and cocktail event for all CS and IT students came off this past Saturday and it was a big ...</p>
+                </div>
+                <div class="blogview">
+                    <a href="#" class="button">Read More</a>
+                </div>
+                <div class="posted date">
+                    <p>Posted on 26/11/2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  &nbsp;<br>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col>">
+          <h4 class="fc4">Academics</h4>
+          <ul  class="fcul">
+            <li><a href="#">Undergraduate Courses</a></li>
+            <li><a href="#">Graduate Courses(MPhil Computer Science)</a></li>
+            <li><a href="#">Graduate Courses(MSc Computer Science)</a></li>
+            <li><a href="#">Graduate Courses(PhD)</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="#">Level 200 & 300 Timetable</a></li>
+            <li><a href="#">Placements for Level 200 Students</a></li>
+            <li><a href="#">Student Complaint Form</a></li>
+          </ul>
+        </div>
+        <div class="footer-col>">
+          <h4 class="fc4">Admissions</h4>
+          <ul class="fcul">
+            <li><a href="#">Undergraduate</a></li>
+            <li><a href="#">Graduate</a></li>
+            <li><a href="#">International Students</a></li>
+            <li><a href="#">Entry Requirements</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col>">
+          <h4 class="fc4">Research</h4>
+          <ul  class="fcul">
+            <li><a href="#">Research at DCS</a></li>
+            <li><a href="#">Research Impact</a></li>
+            <li><a href="#">Libraries</a></li>
+          </ul>
+        </div>
+        <div class="footer-col>">
+          <h4 class="fc4">About The Department</h4>
+          <ul  class="fcul">
+            <li><a href="#">Introducing DCS</a></li>
+            <li><a href="#">Head of Department's Office</a></li>
+            <li><a href="#">Faculty</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Ghana Department of Computer Science-Short_courses</title>
+    <style>
+          body {
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    margin: auto;
+    max-width: 1170px;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+        .navbar {
+ display: flex;
+ justify-content: flex-end;
+ background-color: #2c2a58;
+ padding: 10px;
+}
+
+.menu {
+ position: relative;
+ display: -moz-grid-line;
+}
+
+.hamburger {
+ display: block;
+ width: 20px;
+ height: 2px;
+ background-color: #fff;
+ margin-bottom: 4px;
+}
+
+.hamburger:last-child {
+ margin-bottom: 0;
+}
+
+.myLinks{
+    text-align: right;
+    background-color: #2c2a58;
+    border-style: double;
+    height: 25px;
+}
+
+.Link{
+    color: white;
+    font-size: large;
+    border-style: hidden;
+    border-spacing: 10%;
+    margin-right: 10px;
+}
+
+.footer{
+  background-color: #2c2a58;
+  padding: 70px 0;
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.fc4{
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.fc4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #bd9c6c;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.fcul{
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+h1{
+    color: #fff;
+    background-color: #bd9c6c;
+    width: 50%;
+    margin-left: 28%;
+}
+
+.grad{
+    display: flex;
+    background-color: #2c2a58;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.txt{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.cert{
+    display: flex;
+    background-color: #2c2a58;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#cert-w{
+    width: 700px;
+    margin-left: 40px;
+}
+
+h3{
+    margin-left: 30px;
+}
+
+.bbb{
+    width: 500px;
+    height: 350px;
+    margin-left: 300px;
+}
+    </style>
+</head>
+<body>
+    <img src="https://dcs.ug.edu.gh/img/comScience_logo.png" 
+    alt="UG Department of Computer Science logo" width="50%" height="45%"> 
+  <div class="myLinks">
+    <a href="Index.html" class="Link">Home</a>
+    <a href="About.html" class="Link">About</a>
+    <a href="Courses.html" class="Link">Courses</a>
+    <a href="#finance" class="Link">Financial Aid</a>
+    <a href="Contact.html" class="Link">Contact</a>
+  </div>
+  &nbsp;<br>
+   <h1>Join our Short course Program</h1>
+   <p id="txt">To be able to take full advantage of the opportunities available to this technology driven era, 
+    it is important to acquire new skills. Skills in ICT that will springboard your career.</p>
+    &nbsp;<br>
+    &nbsp;<br>
+    <div class="grad">
+        <i class="fa-solid fa-person-chalkboard" style="color: #ffffff;"></i>
+        <h3>Expert Instructors</h3>
+        <p>Our instructors have years of industry experience which presents students with a unique opportunity of learning from the best.</p>
+    </div>
+  &nbsp;<br>
+    <div class="cert">
+        <i class="fa-light fa-graduation-cap" style="color: #ffffff;"></i>
+        <h3>Certification</h3>
+        <p id="cert-w">You earn a certificate of completion from the department after completing and passing the prescribed exam.</p>
+    </div>
+  &nbsp;<br>  
+  <img src="data:image/jpeg;base64,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" class="bbb">
+  &nbsp;<br>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col>">
+          <h4 class="fc4">Academics</h4>
+          <ul  class="fcul">
+            <li><a href="#">Undergraduate Courses</a></li>
+            <li><a href="#">Graduate Courses(MPhil Computer Science)</a></li>
+            <li><a href="#">Graduate Courses(MSc Computer Science)</a></li>
+            <li><a href="#">Graduate Courses(PhD)</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="#">Level 200 & 300 Timetable</a></li>
+            <li><a href="#">Placements for Level 200 Students</a></li>
+            <li><a href="#">Student Complaint Form</a></li>
+          </ul>
+        </div>
+        <div class="footer-col>">
+          <h4 class="fc4">Admissions</h4>
+          <ul class="fcul">
+            <li><a href="#">Undergraduate</a></li>
+            <li><a href="#">Graduate</a></li>
+            <li><a href="#">International Students</a></li>
+            <li><a href="#">Entry Requirements</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col>">
+          <h4 class="fc4">Research</h4>
+          <ul  class="fcul">
+            <li><a href="#">Research at DCS</a></li>
+            <li><a href="#">Research Impact</a></li>
+            <li><a href="#">Libraries</a></li>
+          </ul>
+        </div>
+        <div class="footer-col>">
+          <h4 class="fc4">About The Department</h4>
+          <ul  class="fcul">
+            <li><a href="#">Introducing DCS</a></li>
+            <li><a href="#">Head of Department's Office</a></li>
+            <li><a href="#">Faculty</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
